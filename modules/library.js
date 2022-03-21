@@ -37,6 +37,6 @@ export default class Library {
     const CONTAINER = document.querySelector('.container');
     const PAGE = document.querySelector('.add-new');
     CONTAINER.insertBefore(DIV, PAGE);
-    setTimeout(() => document.querySelector('.alert').remove(), 1500);
+    setTimeout(() => document.querySelector('.alert').remove(), 1000);
   }
 }

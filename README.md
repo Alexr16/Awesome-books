@@ -6,7 +6,7 @@
 
 ## Screenshot
 
-<img src="./screenshot.png">
+<img src="./screen.png">
 
 ## Built With
 
