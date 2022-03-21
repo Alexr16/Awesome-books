@@ -13,12 +13,6 @@
 - HTML
 - CSS
 - JavaScript
-
-<!-- ## Live Demo 
-
-[Live Demo Link](https://livedemo.com) -->
-
-
 ## Getting Started
 
 To get a local copy up and running follow this simple step:
