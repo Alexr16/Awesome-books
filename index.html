@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/index.css">
+    <title>Awesome Books</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">Awesome Books</div>
+            <ul class="navigation">
+                <li class="nav-link list-link"><a class="link active" href="#lists">List</a></li>
+                <li class="nav-link add-new-link"><a class="link" href="#newbook">Add New</a></li>
+                <li class="nav-link contact-link"><a class="link" href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="date">
+            <p id="current-date"></p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="book-list" id="lists">
+            <h1>All awesome books</h1>
+
+            <div class="added-books"></div>
+        </section>
+
+        <section class="add-new hide" id="newbook">
+            <form class="input-section" action="#">
+                <h2>Add a new book</h2>
+                <input type="text" name="title" class="pb" id="title" placeholder="Title" required minlength="1">
+                <input type="text" name="author" class="pb" id="author" placeholder="Author" required minlength="1">
+                <div class="btn-container">
+                    <button type="submit" class="add-btn">Add</button>
+                </div>
+            </form>
+        </section>
+        <section class="contact hide" id="contact">
+            <h2 class="hidden">Contact section</h2>
+            <div class="contact-container">
+                <h2>Contact Information</h2>
+                <div class="contact-text">
+                    <p>Do you have any questions or you just want to say 'Hello".</p>
+                    <p>You can reach out to us!</p>
+                </div>
+                <ul class="contact-features">
+                    <li>Our email: info@awesomebooks.com</li>
+                    <li>Our phone number: 0043586534422</li>
+                    <li>Our address: 22 Microverse st., 84503 Universe</li>
+                </ul>
+            </div>
+        </section>
+
+    </main>
+    <footer class="footer">
+        <p>&copy; 2022 Awesomebooks.com</p>
+    </footer>
+    <script type="module" src="index.js"></script>
+</body>
+
+</html>

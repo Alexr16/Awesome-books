@@ -1,0 +1,258 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  display: block;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.logo {
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+h1 {
+  text-align: center;
+  margin: 0 0 12px;
+}
+
+h2 {
+  text-align: center;
+  color: black;
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+
+.added-books {
+  border: 2px solid black;
+  margin: auto;
+  max-width: 90%;
+}
+
+.book:nth-child(odd) {
+  background-color: #e0e0e2;
+}
+
+hr {
+  margin: 16px auto 0;
+  background-color: black;
+  height: 2px;
+  border: 0;
+  width: 100px;
+}
+
+.input-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 20px auto;
+}
+
+input {
+  border: 1px solid black;
+  padding: 3px;
+}
+
+.pb {
+  margin-bottom: 15px;
+}
+
+.btn-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.add-btn {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  -ms-flex-line-pack: end;
+      align-content: flex-end;
+  border: 1px solid black;
+  padding: 4px 8px;
+}
+
+ul {
+  -webkit-padding-start: 0;
+          padding-inline-start: 0;
+}
+
+.item {
+  list-style: none;
+  padding-left: 10px;
+}
+
+.remove-button {
+  margin: 0 10px 0;
+  padding: 4px 8px;
+  border: 1px solid red;
+}
+
+.book-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 40px;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.nav-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 90%;
+  margin: 10px auto;
+  padding: 5px;
+  border: 2px solid #000;
+}
+
+.navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+.navigation .link {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+}
+
+.navigation .link:hover,
+.navigation .active {
+  color: blue;
+}
+
+.contact-link {
+  margin-right: 10px;
+}
+
+.add-new-link {
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+  padding: 0 20px;
+  margin: 0 20px;
+}
+
+.hidden {
+  clip: rect(1px, 1px, 1px, 1px);
+  -webkit-clip-path: inset(50%);
+          clip-path: inset(50%);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+}
+
+#contact {
+  margin: 0 auto;
+  max-width: 70%;
+  padding-bottom: 50px;
+}
+
+.contact-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact-text {
+  margin: 30px auto;
+}
+
+.contact-features {
+  margin: 0 70px;
+}
+
+.footer {
+  max-width: 90%;
+  padding: 5px 5px 5px 15px;
+  border: 2px solid #000;
+  width: 100%;
+  position: fixed;
+  bottom: 10px;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  background-color: #fff;
+}
+
+.date {
+  text-align: right;
+  max-width: 90%;
+  margin: 0 auto 20px;
+}
+
+.alert {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  -ms-flex-line-pack: end;
+      align-content: flex-end;
+  padding: 4px 8px;
+}
+
+.alert-danger {
+  background-color: red;
+  border: 2px solid black;
+  margin: auto;
+  color: white;
+}
+
+.alert-success {
+  background-color: green;
+  border: 2px solid black;
+  margin: auto;
+  color: white;
+}
+/*# sourceMappingURL=index.css.map */
